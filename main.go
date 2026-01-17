@@ -1,6 +1,6 @@
 package main
 
-var VERSION = "0.0.3"
+const VERSION = "0.0.4"
 
 func main() {
 	println("Ba dum, tss!")
