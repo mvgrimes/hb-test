@@ -1,5 +1,5 @@
 APP      := "hb-test"
-VERSION  := `perl -nE'm{version\s*=\s*"(\d+\.\d+.\d+)"} && print $1' ./main.go`
+VERSION  := `perl -nE'm{VERSION\s*=\s*"(\d+\.\d+.\d+)"} && print $1' ./main.go`
 
 build:
   echo "Building verions {{VERSION}} of {{APP}}"
