@@ -57,4 +57,4 @@ homebrew_casks:
   - name: hb-test
     repository:
       owner: mvgrimes
-      name: hb-test
+      name: homebrew-tap
